@@ -33,13 +33,28 @@
 Este jogo foi desenvolvido como parte de um projeto educacional da Digital Innovation One.
 Alguns detalhes em CSS e imagens foram alteradas e divergem do projeto original fornecido durante a aula.
 
-5. ### Comentários no código
+6. ### Comentários no código
 ##### arquivo engine
+
+* state - objeto de gerenciamento de estados globais.
+* no view configuro a manipulação das classes dos meus componentes do HTML.
 - 1-manipular a classname , querySelectorAll pq pode ter mais de um, e passo o valor que todas precisam ter(nesse caso "square")
 - 2-queryselector, pq só tenho um inimigo por vez .
-- 3-passocom # pq é um id.
-- 4-ter um quadrado aleatóriopara sortear o inimigo
+- 3-passo com # pq é um id.
+- 4-ter um quadrado aleatório para sortear o inimigo.
 - 5- primeiro vai definir que vai limpar a classe caso ela exista, limpando a classe enemy de todos.
-- 6-sorteia um número aleatório, pega a parte inteira dele(floor), de 1 a 9
+- 6-  pega um número aleatório de 1 a 9,pega a parte inteira dele(floor, arredonda o valor),multiplica  de 1 a 9,sorteia um número aleatório(para sortear uma caixinha), 
 - 7-pega um quadrado aleatório, dentro do número aleatório que recebi no randomNumber
 - 8-no quadrado adiciona a classe inimigo
+
+7. ### Estrutura
+
+1- src com pastas audios, images, scripts, styles.
+
+2- arquivo engine equivale ao main.
+
+3- as variáveis ficam centralizadas na engine (referente a motor).
+
+4- Dois tipos de variáveis :
+   - views: manipula algo visual.
+   - values: manipula algo não visual
