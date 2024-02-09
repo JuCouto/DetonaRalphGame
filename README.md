@@ -25,10 +25,10 @@
 
 1. Clone este repositório para sua máquina local.
 2. Abra o arquivo `index.html` em seu navegador web.
-3. Use as setas direcionais para mover o personagem e a barra de espaço para interagir.
-4. Divirta-se explorando e coletando moedas, mas fique atento aos inimigos!
+3. Utilizando o mouse você deve clicar no quadrado onde o Ralph aparece, quanto mais vezes acertar , maior a sua pontuação.
 
-5. ### Créditos
+
+6. ### Créditos
 
 Este jogo foi desenvolvido como parte de um projeto educacional da Digital Innovation One.
 Alguns detalhes em CSS e imagens foram alteradas e divergem do projeto original fornecido durante a aula.
