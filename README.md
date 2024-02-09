@@ -2,6 +2,9 @@
  <h1 align="center">Detona Ralph</h1>
 
  Jogo com tema Detona Ralph, criado a partir do desafio do Bootcamp de jogos da DIO (Digital Innovation One)
+ <div align="center">
+<img src="https://github.com/JuCouto/DetonaRalphGame/assets/100319483/9c692544-08c3-4454-ae79-d37487bd1652" width="550em" height="400em" alt="Descrição da imagem" ></div>
+
 
 
 <h3 align="left">Tecnologias utilizadas</h3>
