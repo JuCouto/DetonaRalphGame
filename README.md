@@ -38,14 +38,25 @@ Alguns detalhes em CSS e imagens foram alteradas e divergem do projeto original 
 
 * state - objeto de gerenciamento de estados globais.
 * no view configuro a manipulação das classes dos meus componentes do HTML.
-- 1-manipular a classname , querySelectorAll pq pode ter mais de um, e passo o valor que todas precisam ter(nesse caso "square")
-- 2-queryselector, pq só tenho um inimigo por vez .
-- 3-passo com # pq é um id.
-- 4-ter um quadrado aleatório para sortear o inimigo.
-- 5- primeiro vai definir que vai limpar a classe caso ela exista, limpando a classe enemy de todos.
-- 6-  pega um número aleatório de 1 a 9,pega a parte inteira dele(floor, arredonda o valor),multiplica  de 1 a 9,sorteia um número aleatório(para sortear uma caixinha), 
-- 7-pega um quadrado aleatório, dentro do número aleatório que recebi no randomNumber
-- 8-no quadrado adiciona a classe inimigo
+- 1 manipular a classname , querySelectorAll pq pode ter mais de um, e passo o valor que todas precisam ter(nesse caso "square")
+- 2 queryselector, pq só tenho um inimigo por vez .
+- 3 passo com # pq é um id.
+- 4 mesma configuração do timer em moveenemy, só estou guaradando diretamente na variável. assim que carrega o código ele lê a variável e inicia. o  timer está dentro de uma função porque eu chamo ela no initializer e quero ter mais controle sobre ele. 
+- 5 primeiro vai definir que vai limpar a classe caso ela exista, limpando a classe enemy de todos.
+- 6  pega um número aleatório de 1 a 9,pega a parte inteira dele(floor, arredonda o valor),multiplica  de 1 a 9,sorteia um número aleatório(para sortear uma caixinha), 
+- 7 pega um quadrado aleatório, dentro do número aleatório que recebi no randomNumber
+- 8 no quadrado adiciona a classe inimigo.
+- 9 toda vez q eu sortear um quadrado aleátório,voi guardar o id do quadrado aleatório que eu sorteei..
+- 10 vai guardar dentro de uma variavel temporária(timerId), chamo a função randomsquare, a cada x tempo ele vai chamar a função, passo o tempo que eu defini no gameVelocity.
+- 11 em state.view vai pegar as squares e definir uma função.
+- 12 addEventListener função do javascript que fica escutando todo valor que é atibuido e chama uma função.
+- 13 verificar se o id do elemento square(quadrado que o usuário clicou) é igual á posição do quadrado aleatório que foi soteado..
+- 14 se acertou o quadrado que o inimigo está, adiciono 1 a resultado.
+- 15 alterar o visual do score.
+- 16 para o usuario não clicar no mesmo lugar seto para nulo.
+- 17 toda vez que chamar vai reduzir o tempo(subtrair do 60 inicial.)
+- 18 vai atualizar o tempo de maneira visual.
+- 19 verifica se o tempo acabou,
 
 7. ### Estrutura
 
